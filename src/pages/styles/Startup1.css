@@ -1,0 +1,22 @@
+.container-startup1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-logo-startup1 {
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.logo-startup1 {
+    margin-bottom: 200px;
+}
+
+.buttoncontinue-startup1 {
+    display: flex;
+    justify-content: center;
+}
