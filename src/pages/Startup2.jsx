@@ -1,4 +1,5 @@
 import "./styles/Startup2.css";
+import { Link } from "react-router-dom";
 import BackgroundImage from "../assets/background-flowers.svg";
 import SmallLogo from "../assets/small-logo.svg"
 import InfoBouquet from "../assets/info-bouquet.svg"
@@ -20,16 +21,18 @@ function Startup2() {
                         <p className="text-startup2">Composing your own bouquet</p>
                     </div>
                     <div className="infos-startup2">
-                        <img className="info-startup2" src={InfoCarnet} alt="bouquet" />
+                        <img className="info-startup2" src={InfoCarnet} alt="carnet" />
                         <p className="text-startup2">Don't miss the important dates</p>
                     </div>
                     <div className="infos-startup2">
-                        <img className="info-startup2" src={InfoGift} alt="bouquet" />
+                        <img className="info-startup2" src={InfoGift} alt="gift" />
                         <p className="text-startup2">Track orders in real time</p>
                     </div>
                 </div>
                 <div className="buttoncontinue-startup2">
-                    <ButtonContinue />
+                    <Link to="/loginorsignin">
+                        <ButtonContinue />
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,0 +1,114 @@
+.logo-login {
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+.containerwhite-login {
+    background-color: var(--light-grey);
+    width: 100vw;
+    padding: 10px;
+    border-radius: 30px 30px 0 0;
+    margin-top: 110px;
+}
+
+.title-login {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.title2-login {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.formulaire-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-input-login {
+    font-size: 0.9rem;
+    font-family: var(--font);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inputlogin {
+    width: 325px;
+    margin-bottom: 10px;
+}
+
+.lien-forgotpassword-login {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.login-texte-question {
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 20px
+}
+
+.buttonlogin-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.login-separation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.separation-trait1, .separation-trait2 {
+    border: 0.8px solid var(--black);
+    width: 140px;
+    height: 0px;
+    border-radius: 5px;
+}
+
+.separation-text {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.createaccount-socialnetworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.socialnetworks-icons {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px
+}
+
+.lien-createaccount-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.login-texte-panic {
+    margin-right: 5px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: 20px
+}
