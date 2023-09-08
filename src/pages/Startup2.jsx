@@ -21,11 +21,11 @@ function Startup2() {
                         <p className="text-startup2">Composing your own bouquet</p>
                     </div>
                     <div className="infos-startup2">
-                        <img className="info-startup2" src={InfoCarnet} alt="bouquet" />
+                        <img className="info-startup2" src={InfoCarnet} alt="carnet" />
                         <p className="text-startup2">Don't miss the important dates</p>
                     </div>
                     <div className="infos-startup2">
-                        <img className="info-startup2" src={InfoGift} alt="bouquet" />
+                        <img className="info-startup2" src={InfoGift} alt="gift" />
                         <p className="text-startup2">Track orders in real time</p>
                     </div>
                 </div>

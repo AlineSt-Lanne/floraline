@@ -1,4 +1,5 @@
 import "./styles/LoginSignin.css";
+import { Link } from "react-router-dom";
 import BackgroundImage from "../assets/background-flowers.svg"
 import BigLogo from "../assets/big-logo.svg"
 import ButtonGetStarted from "../components/LoginSignin/ButtonGetStarted"
@@ -18,7 +19,9 @@ function LoginSignin() {
                             <ButtonGetStarted />
                         </div>
                         <div className="buttonhaveaacount-loginsignin">
-                            <ButtonHaveaAccount />
+                            <Link to="/login">
+                                <ButtonHaveaAccount />
+                            </Link>
                         </div>
                     </div>
                 </div>
