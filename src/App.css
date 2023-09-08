@@ -51,19 +51,5 @@
     font-weight: 400;
   }
 
-  *button {
-    font-size: 1rem;
-    font-family: var(--font);
-    font-weight: 400;
-    text-align: center;
-  }
-
-  p {
-    font-size: 0.8rem;
-    font-family: var(--font);
-    font-weight: 400;
-    text-align: left;
-  }
-
   @media screen and (min-width: 769px) {
   }
