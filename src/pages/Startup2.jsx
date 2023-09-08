@@ -1,4 +1,5 @@
 import "./styles/Startup2.css";
+import { Link } from "react-router-dom";
 import BackgroundImage from "../assets/background-flowers.svg";
 import SmallLogo from "../assets/small-logo.svg"
 import InfoBouquet from "../assets/info-bouquet.svg"
@@ -29,7 +30,9 @@ function Startup2() {
                     </div>
                 </div>
                 <div className="buttoncontinue-startup2">
-                    <ButtonContinue />
+                    <Link to="/loginorsignin">
+                        <ButtonContinue />
+                    </Link>
                 </div>
             </div>
         </div>

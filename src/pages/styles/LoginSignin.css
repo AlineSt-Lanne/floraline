@@ -1,0 +1,41 @@
+.container-loginsignin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo-loginsignin {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-loginsignin {
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.container-white-loginsignin {
+    background-color: var(--white);
+    width: 100vw;
+    padding: 30px;
+    border-radius: 30px 30px 0 0;
+}
+
+.title-loginsignin {
+    margin-bottom: 20px;
+}
+
+.container-buttons-loginsignin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttongetstarted-loginsignin {
+    margin-bottom: 20px;
+}
+
+.buttonhaveaacount-loginsignin {
+    margin-bottom: 50px;
+}
